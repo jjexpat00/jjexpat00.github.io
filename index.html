@@ -14,20 +14,23 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 
 	<!--- Favicon head --->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 
 	<link href="footer.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+		
+		<!-- Do I even need a navbar??? -->
+<!-- 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index">Jacob Chow</a>
@@ -37,62 +40,67 @@
 					<li><a href="AboutMe">About Me</a></li>
 				</ul>
 			</div>
-		</nav>
+		</nav> -->
+
+		<div class="container" style="margin-top:40px">
+
+			<h1>Jacob Chow<span class="blinking-cursor">.</span></h1>
+			<h3>Part developer, part researcher, part foodie.</h3>
+
+
+		</div>
 	</header>
 	<main>
-		<div class="container" style="margin-top:50px">
+		
+		<div class="container" style="margin-top:10px">
 
-			<div class="container" style="display:none;" id="myAlert">
+			<h2>Fun Stuff</h2>
+			<a href="https://github.com/jjexpat00/spoop" target="_blank" class="btn btn-default btn-lg" role="button">Spotify Discord Music Player</a>
+			<p></p>
+			<a href="https://www.google.com/maps/contrib/101490775398737773772/" target="_blank" class="btn btn-default btn-lg" role="button">Google Local Guides</a>
+			
+			
 
-				<div class="alert alert-danger alert-dismissable fade in" id="myAlert2">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-					You just want to watch the world burn. It's already bad enough that this is in <strong>HTML</strong>.
+
+
+		</div>
+
+		<div class="container" style="margin-top:10px">
+
+			<h2>Serious Stuff</h2>
+			<a href="https://www.dropbox.com/s/gsdi7y2f83tms5a/Resume%20Final.pdf" target="_blank" class="btn btn-default btn-lg" role="button">Resume/CV</a>
+			<p></p>
+			<a href="https://www.researchgate.net/publication/316834317_Differential_effect_of_micron-_Versus_nanoscale_III-V_particulates_and_ionic_species_on_the_zebrafish_gut" target="_blank" class="btn btn-default btn-lg" role="button">Zebrafish Research</a>
+
+
+			</div>
+
+
+
+		</main>
+
+
+		<footer class="footer">
+			<div class="container-fluid"><div class="row">
+				<div class="col-sm-6 text-muted" style="font-size: 1.5em">
+					<p>
+						<a href="https://www.facebook.com/jacobychow">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a href="https://github.com/jjexpat00">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/jacob-chow/">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</p>
 				</div>
-
-			</div>
-
-			<h3>Welcome.</h3>
-			<p>This is where I write "Hello, World!" and broadcast it as a marquee banner.</p>
-			<marquee behavior=slide>Yeah I actually made one...</marquee>
-			<p>Don't worry, embedded music won't start playing, your cursor won't change appearance, unless you press this 
-				<button class="class btn btn-default btn-xs" value="showAlert" onclick="showAlert();">button.</button>
-			</p>
-
-			<script type="text/javascript">
-				function showAlert(){
-					if($("#myAlert").find("div#myAlert2").length==0){
-						$("#myAlert").append("<div class='alert alert-danger alert-dismissable fade in' id='myAlert2'> <button type='button' class='close' data-dismiss='alert'  aria-hidden='true'>&times;</button>You just want to watch the world burn. It's already bad enough that this is in <strong>HTML</strong>.</div>");
-					}
-					$("#myAlert").css("display", "");
-				}
-			</script>
-		</div>
-		<div class="container">
-
-			<p>Next container.</p> 
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="container-fluid"><div class="row">
-			<div class="col-sm-6 text-muted" style="font-size: 1.5em">
-				<p>
-					<a href="https://www.facebook.com/jacobychow">
-						<i class="fab fa-facebook-square"></i>
-					</a>
-					<a href="https://github.com/jjexpat00">
-						<i class="fab fa-github-square"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/jacob-chow/">
-						<i class="fab fa-linkedin"></i>
-					</a>
-				</p>
-			</div>
-			<div class="col-sm-6 text-right text-muted">
-				<p>Jacob Chow <strong>2018</strong></p>
+				<div class="col-sm-6 text-right text-muted">
+					<p>Jacob Chow <strong>2018</strong></p>
+				</div>
 			</div>
 		</div>
-	</div>
-</footer>
+	</footer>
 </body>
 
 </html>
