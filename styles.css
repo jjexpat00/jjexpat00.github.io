@@ -1,3 +1,7 @@
+.header {
+  margin-top: 25px
+}
+
 .main h3 {
   margin-top: 40px;
 }
@@ -12,6 +16,57 @@
   -ms-animation: 1s blink step-end infinite;
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #2E3D48;
+    box-shadow: none;
+    color: #2E3D48;
+}
+
+html {
+  position: relative;
+  min-height: 101%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 110px;
+  background-color: #B3D9FF;
+  -webkit-animation: pulse 60s infinite alternate;
+}
+
+@-webkit-keyframes pulse {
+      0% {background-color: white;}
+     25% {background-color: #FFFBE3;}
+     50% {background-color: #FFE1DA;}
+     75% {background-color: #CBFFF5;}
+     100% {background-color: #FFEED4;}
+}   
+     
+
+.footer {
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 70px; /* Vertically center the text there */
+  height: 80px; /* Set the fixed height of the footer here */
+  background-color: rgba(0,0,0,0.05);
+  color: #2E3D48;
+}
+
+.fab {
+  color: grey;
+  font-size: 25px;
+  line-height: 70px; /* Vertically center the text there */
+}
+
+.fas {
+  color: grey;
+  font-size: 25px;
+  line-height: 70px; /* Vertically center the text there */
 }
 
 @keyframes "blink" {
