@@ -58,13 +58,13 @@ body {
 }
 
 .fab {
-  color: grey;
+  color: #2E3D48;
   font-size: 25px;
   line-height: 70px; /* Vertically center the text there */
 }
 
 .fas {
-  color: grey;
+  color: #2E3D48;
   font-size: 25px;
   line-height: 70px; /* Vertically center the text there */
 }
