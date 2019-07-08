@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: jacobchow.com
-Token: 9ebcb5dbe4a9cfdf9546c9cb8944c486449f38a668329610e7b599394cc15c13
