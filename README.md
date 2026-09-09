@@ -1,3 +1,3 @@
 # Jacob's Personal Website
 
-Bootstrap hosted on Github Pages. Nothing too fancy.
+Plain HTML/CSS hosted on Github Pages. Nothing too fancy.
